@@ -4,7 +4,7 @@ from dash import html, dcc, ctx
 from dash.dependencies import Input, Output, State
 from datetime import datetime, timedelta
 # from dash import dcc
-import dash_daq as daq
+# import dash_daq as daq
 from scipy.spatial.distance import cosine
 from sklearn.feature_extraction.text import TfidfVectorizer
 from plotly.subplots import make_subplots
