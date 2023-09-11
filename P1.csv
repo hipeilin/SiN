@@ -1,0 +1,369 @@
+event,object,data_view,data_table,dimensions,year,municipality,gender,start,participant,end,duration
+Task 1,,,,,,,,2023-05-04 00:00:00,P1,2023-05-04 00:00:10,10.0
+DataViewCreated,DataView_2146828888,AverageIncome-Municipality,AverageIncome,"[Municipality, Year]",,,both,2023-05-04 00:00:00,P1,2023-05-04 00:00:10,10.0
+FilterSetUpdated,SharedMapFilters,,,,2017,,both,2023-05-04 00:00:00,P1,2023-05-04 00:00:10,10.0
+ActorDestroyed,BP_RegionMarker3DWidgets_C_2146829218,,,,,,both,2023-05-04 00:00:00,P1,2023-05-04 00:00:10,10.0
+ActorSpawned,BP_RegionMarker3DWidgets_C_2146828884,,,,,,both,2023-05-04 00:00:00,P1,2023-05-04 00:00:10,10.0
+DataViewCreated,DataView_2146828869,AverageIncome-MapFilter-Info,AverageIncome,[Year],,,both,2023-05-04 00:00:00,P1,2023-05-04 00:00:10,10.0
+DataViewCreated,DataView_2146828868,AverageIncome-MapFilter-Info,AverageIncome,[Year],,,both,2023-05-04 00:00:00,P1,2023-05-04 00:00:10,10.0
+DataViewCreated,DataView_2146828867,AverageIncome-MapFilter-Info,AverageIncome,[Year],,,both,2023-05-04 00:00:00,P1,2023-05-04 00:00:10,10.0
+DataViewCreated,DataView_2146828866,AverageIncome-MapFilter-Info,AverageIncome,[Year],,,both,2023-05-04 00:00:00,P1,2023-05-04 00:00:10,10.0
+ActiveMapFiltersChanged,IncomeMapFilters,,,,,,both,2023-05-04 00:00:00,P1,2023-05-04 00:00:10,10.0
+DataViewDestroyed,DataView_2146828869,AverageIncome-MapFilter-Info,AverageIncome,[],,,both,2023-05-04 00:00:00,P1,2023-05-04 00:00:10,10.0
+FilterSetUpdated,SharedMapFilters,,,,2017,,both,2023-05-04 00:00:00,P1,2023-05-04 00:00:10,10.0
+ButtonClicked,IncomeButton,,,,,,both,2023-05-04 00:00:00,P1,2023-05-04 00:00:10,10.0
+FilterSetCreated,FilterSet_WBP_BubbleGroup_C_2146828882,,,,2017,,both,2023-05-04 00:00:00,P1,2023-05-04 00:00:10,10.0
+DataViewCreated,DataView_2146828836,Income-Main,Income,"[Income, Year]",,,both,2023-05-04 00:00:00,P1,2023-05-04 00:00:10,10.0
+DataViewCreated,DataView_2146828835,Education-Age-Side,Income,"[AgeGroup, Gender, Year]",,,both,2023-05-04 00:00:00,P1,2023-05-04 00:00:10,10.0
+DataViewCreated,DataView_2146828834,Income-Education-Side,EducationIncome,"[Education, Year]",,,both,2023-05-04 00:00:00,P1,2023-05-04 00:00:10,10.0
+DataViewCreated,DataView_2146828833,AverageIncome-Nation,AverageIncome,[Year],,,both,2023-05-04 00:00:00,P1,2023-05-04 00:00:10,10.0
+FilterSetUpdated,SharedMapFilters,,,,2017,,both,2023-05-04 00:00:00,P1,2023-05-04 00:00:10,10.0
+ActorSpawned,BP_RegionMarker3DWidgets_C_2146828655,,,,,,both,2023-05-04 00:00:10,P1,2023-05-04 00:00:25,15.0
+FilterSetCreated,FilterSet_WBP_BubbleGroup_C_2146828653,,,,2017,,both,2023-05-04 00:00:10,P1,2023-05-04 00:00:25,15.0
+DataViewCreated,DataView_2146828611,Income-Main,Income,"[Income, Year]",,,both,2023-05-04 00:00:10,P1,2023-05-04 00:00:25,15.0
+DataViewCreated,DataView_2146828610,Education-Age-Side,Income,"[AgeGroup, Gender, Year]",,,both,2023-05-04 00:00:10,P1,2023-05-04 00:00:25,15.0
+DataViewCreated,DataView_2146828609,Income-Education-Side,EducationIncome,"[Education, Year]",,,both,2023-05-04 00:00:10,P1,2023-05-04 00:00:25,15.0
+DataViewCreated,DataView_2146828608,AverageIncome-Nation,AverageIncome,[Year],,,both,2023-05-04 00:00:10,P1,2023-05-04 00:00:25,15.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146828653,,,,2016,Norrk?ping,both,2023-05-04 00:00:25,P1,2023-05-04 00:00:26,1.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146828653,,,,2017,Norrk?ping,both,2023-05-04 00:00:25,P1,2023-05-04 00:00:26,1.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146828653,,,,2016,Norrk?ping,both,2023-05-04 00:00:26,P1,2023-05-04 00:00:54,28.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146828653,,,,2017,Norrk?ping,both,2023-05-04 00:00:26,P1,2023-05-04 00:00:54,28.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146828653,,,,2016,Norrk?ping,both,2023-05-04 00:00:26,P1,2023-05-04 00:00:54,28.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146828653,,,,2015,Norrk?ping,both,2023-05-04 00:00:26,P1,2023-05-04 00:00:54,28.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146828653,,,,2016,Norrk?ping,both,2023-05-04 00:00:26,P1,2023-05-04 00:00:54,28.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146828653,,,,2015,Norrk?ping,both,2023-05-04 00:00:26,P1,2023-05-04 00:00:54,28.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146828653,,,,2017,Norrk?ping,both,2023-05-04 00:00:26,P1,2023-05-04 00:00:54,28.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146828653,,,,2016,Norrk?ping,both,2023-05-04 00:00:26,P1,2023-05-04 00:00:54,28.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146828653,,,,2017,Norrk?ping,both,2023-05-04 00:00:26,P1,2023-05-04 00:00:54,28.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146828653,,,,2017,Norrk?ping,both,2023-05-04 00:00:54,P1,2023-05-04 00:00:57,3.0
+Task 2,,,,,,,,2023-05-04 00:00:57,P1,2023-05-04 00:01:00,3.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146828653,,,,2017,Norrk?ping,male,2023-05-04 00:01:00,P1,2023-05-04 00:01:01,1.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146828653,,,,2017,Norrk?ping,female,2023-05-04 00:01:01,P1,2023-05-04 00:01:02,1.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146828653,,,,2017,Norrk?ping,male,2023-05-04 00:01:02,P1,2023-05-04 00:01:06,4.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146828653,,,,2017,Norrk?ping,both,2023-05-04 00:01:06,P1,2023-05-04 00:01:07,1.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146828653,,,,2017,Norrk?ping,female,2023-05-04 00:01:06,P1,2023-05-04 00:01:07,1.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146828653,,,,2017,Norrk?ping,male,2023-05-04 00:01:07,P1,2023-05-04 00:01:12,5.0
+ActorSpawned,BP_RegionMarker3DWidgets_C_2146828499,,,,,,both,2023-05-04 00:01:12,P1,2023-05-04 00:01:15,3.0
+FilterSetCreated,FilterSet_WBP_BubbleGroup_C_2146828497,,,,2017,,both,2023-05-04 00:01:12,P1,2023-05-04 00:01:15,3.0
+DataViewCreated,DataView_2146828455,Income-Main,Income,"[Income, Year]",,,both,2023-05-04 00:01:12,P1,2023-05-04 00:01:15,3.0
+DataViewCreated,DataView_2146828454,Education-Age-Side,Income,"[AgeGroup, Gender, Year]",,,both,2023-05-04 00:01:12,P1,2023-05-04 00:01:15,3.0
+DataViewCreated,DataView_2146828453,Income-Education-Side,EducationIncome,"[Education, Year]",,,both,2023-05-04 00:01:12,P1,2023-05-04 00:01:15,3.0
+DataViewCreated,DataView_2146828452,AverageIncome-Nation,AverageIncome,[Year],,,both,2023-05-04 00:01:12,P1,2023-05-04 00:01:15,3.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146828497,,,,2017,Norrk?ping,both,2023-05-04 00:01:15,P1,2023-05-04 00:01:18,3.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146828497,,,,2017,Norrk?ping,female,2023-05-04 00:01:18,P1,2023-05-04 00:01:56,38.0
+Task 3,,,,,,,,2023-05-04 00:01:56,P1,2023-05-04 00:02:12,16.0
+ActorDestroyed,BP_RegionMarker3DWidgets_C_2146828499,,,,,,both,2023-05-04 00:02:12,P1,2023-05-04 00:02:13,1.0
+FilterSetDestroyed,FilterSet_WBP_BubbleGroup_C_2146828497,,,,,,both,2023-05-04 00:02:12,P1,2023-05-04 00:02:13,1.0
+ActorDestroyed,BP_RegionMarker3DWidgets_C_2146828655,,,,,,both,2023-05-04 00:02:13,P1,2023-05-04 00:02:29,16.0
+FilterSetDestroyed,FilterSet_WBP_BubbleGroup_C_2146828653,,,,,,both,2023-05-04 00:02:13,P1,2023-05-04 00:02:29,16.0
+DataViewDestroyed,DataView_2146828888,AverageIncome-Municipality,AverageIncome,[],,,both,2023-05-04 00:02:29,P1,2023-05-04 00:02:36,7.0
+DataViewCreated,DataView_2146828335,AverageIncome-County,AverageIncome,"[County, Year]",,,both,2023-05-04 00:02:29,P1,2023-05-04 00:02:36,7.0
+FilterSetUpdated,SharedMapFilters,,,,2017,,both,2023-05-04 00:02:29,P1,2023-05-04 00:02:36,7.0
+ActorDestroyed,BP_RegionMarker3DWidgets_C_2146828884,,,,,,both,2023-05-04 00:02:29,P1,2023-05-04 00:02:36,7.0
+ActorSpawned,BP_RegionMarker3DWidgets_C_2146828331,,,,,,both,2023-05-04 00:02:29,P1,2023-05-04 00:02:36,7.0
+FilterSetCreated,FilterSet_WBP_BubbleGroup_C_2146828329,,,,2017,,both,2023-05-04 00:02:29,P1,2023-05-04 00:02:36,7.0
+DataViewCreated,DataView_2146828266,Income-Main,Income,"[Income, Year]",,,both,2023-05-04 00:02:29,P1,2023-05-04 00:02:36,7.0
+DataViewCreated,DataView_2146828265,Education-Age-Side,Income,"[AgeGroup, Gender, Year]",,,both,2023-05-04 00:02:29,P1,2023-05-04 00:02:36,7.0
+DataViewCreated,DataView_2146828264,Income-Education-Side,EducationIncome,"[Education, Year]",,,both,2023-05-04 00:02:29,P1,2023-05-04 00:02:36,7.0
+DataViewCreated,DataView_2146828263,AverageIncome-Nation,AverageIncome,[Year],,,both,2023-05-04 00:02:29,P1,2023-05-04 00:02:36,7.0
+ActorSpawned,BP_RegionMarker3DWidgets_C_2146828125,,,,,,both,2023-05-04 00:02:36,P1,2023-05-04 00:02:39,3.0
+FilterSetCreated,FilterSet_WBP_BubbleGroup_C_2146828123,,,,2017,,both,2023-05-04 00:02:36,P1,2023-05-04 00:02:39,3.0
+DataViewCreated,DataView_2146828081,Income-Main,Income,"[Income, Year]",,,both,2023-05-04 00:02:36,P1,2023-05-04 00:02:39,3.0
+DataViewCreated,DataView_2146828080,Education-Age-Side,Income,"[AgeGroup, Gender, Year]",,,both,2023-05-04 00:02:36,P1,2023-05-04 00:02:39,3.0
+DataViewCreated,DataView_2146828079,Income-Education-Side,EducationIncome,"[Education, Year]",,,both,2023-05-04 00:02:36,P1,2023-05-04 00:02:39,3.0
+DataViewCreated,DataView_2146828078,AverageIncome-Nation,AverageIncome,[Year],,,both,2023-05-04 00:02:36,P1,2023-05-04 00:02:39,3.0
+ActorDestroyed,BP_RegionMarker3DWidgets_C_2146828125,,,,,,both,2023-05-04 00:02:39,P1,2023-05-04 00:02:43,4.0
+FilterSetDestroyed,FilterSet_WBP_BubbleGroup_C_2146828123,,,,,,both,2023-05-04 00:02:39,P1,2023-05-04 00:02:43,4.0
+DataViewDestroyed,DataView_2146828335,AverageIncome-County,AverageIncome,[],,,both,2023-05-04 00:02:43,P1,2023-05-04 00:03:10,27.0
+DataViewCreated,DataView_2146827966,AverageIncome-Municipality,AverageIncome,"[Municipality, Year]",,,both,2023-05-04 00:02:43,P1,2023-05-04 00:03:10,27.0
+FilterSetUpdated,SharedMapFilters,,,,2017,,both,2023-05-04 00:02:43,P1,2023-05-04 00:03:10,27.0
+ActorDestroyed,BP_RegionMarker3DWidgets_C_2146828331,,,,,,both,2023-05-04 00:02:43,P1,2023-05-04 00:03:10,27.0
+ActorSpawned,BP_RegionMarker3DWidgets_C_2146827962,,,,,,both,2023-05-04 00:02:43,P1,2023-05-04 00:03:10,27.0
+FilterSetCreated,FilterSet_WBP_BubbleGroup_C_2146827960,,,,2017,,both,2023-05-04 00:02:43,P1,2023-05-04 00:03:10,27.0
+DataViewCreated,DataView_2146827582,Income-Main,Income,"[Income, Year]",,,both,2023-05-04 00:02:43,P1,2023-05-04 00:03:10,27.0
+DataViewCreated,DataView_2146827581,Education-Age-Side,Income,"[AgeGroup, Gender, Year]",,,both,2023-05-04 00:02:43,P1,2023-05-04 00:03:10,27.0
+DataViewCreated,DataView_2146827580,Income-Education-Side,EducationIncome,"[Education, Year]",,,both,2023-05-04 00:02:43,P1,2023-05-04 00:03:10,27.0
+DataViewCreated,DataView_2146827579,AverageIncome-Nation,AverageIncome,[Year],,,both,2023-05-04 00:02:43,P1,2023-05-04 00:03:10,27.0
+ActorSpawned,BP_RegionMarker3DWidgets_C_2146827431,,,,,,both,2023-05-04 00:03:10,P1,2023-05-04 00:03:11,1.0
+FilterSetCreated,FilterSet_WBP_BubbleGroup_C_2146827429,,,,2017,,both,2023-05-04 00:03:10,P1,2023-05-04 00:03:11,1.0
+DataViewCreated,DataView_2146827387,Income-Main,Income,"[Income, Year]",,,both,2023-05-04 00:03:10,P1,2023-05-04 00:03:11,1.0
+DataViewCreated,DataView_2146827386,Education-Age-Side,Income,"[AgeGroup, Gender, Year]",,,both,2023-05-04 00:03:10,P1,2023-05-04 00:03:11,1.0
+DataViewCreated,DataView_2146827385,Income-Education-Side,EducationIncome,"[Education, Year]",,,both,2023-05-04 00:03:10,P1,2023-05-04 00:03:11,1.0
+DataViewCreated,DataView_2146827384,AverageIncome-Nation,AverageIncome,[Year],,,both,2023-05-04 00:03:10,P1,2023-05-04 00:03:11,1.0
+ActorSpawned,BP_RegionMarker3DWidgets_C_2146827276,,,,,,both,2023-05-04 00:03:11,P1,2023-05-04 00:03:15,4.0
+FilterSetCreated,FilterSet_WBP_BubbleGroup_C_2146827274,,,,2017,,both,2023-05-04 00:03:11,P1,2023-05-04 00:03:15,4.0
+DataViewCreated,DataView_2146827232,Income-Main,Income,"[Income, Year]",,,both,2023-05-04 00:03:11,P1,2023-05-04 00:03:15,4.0
+DataViewCreated,DataView_2146827231,Education-Age-Side,Income,"[AgeGroup, Gender, Year]",,,both,2023-05-04 00:03:11,P1,2023-05-04 00:03:15,4.0
+DataViewCreated,DataView_2146827230,Income-Education-Side,EducationIncome,"[Education, Year]",,,both,2023-05-04 00:03:11,P1,2023-05-04 00:03:15,4.0
+DataViewCreated,DataView_2146827229,AverageIncome-Nation,AverageIncome,[Year],,,both,2023-05-04 00:03:11,P1,2023-05-04 00:03:15,4.0
+ActorSpawned,BP_RegionMarker3DWidgets_C_2146827121,,,,,,both,2023-05-04 00:03:15,P1,2023-05-04 00:03:16,1.0
+FilterSetCreated,FilterSet_WBP_BubbleGroup_C_2146827119,,,,2017,,both,2023-05-04 00:03:15,P1,2023-05-04 00:03:16,1.0
+DataViewCreated,DataView_2146827077,Income-Main,Income,"[Income, Year]",,,both,2023-05-04 00:03:15,P1,2023-05-04 00:03:16,1.0
+DataViewCreated,DataView_2146827076,Education-Age-Side,Income,"[AgeGroup, Gender, Year]",,,both,2023-05-04 00:03:15,P1,2023-05-04 00:03:16,1.0
+DataViewCreated,DataView_2146827075,Income-Education-Side,EducationIncome,"[Education, Year]",,,both,2023-05-04 00:03:15,P1,2023-05-04 00:03:16,1.0
+DataViewCreated,DataView_2146827074,AverageIncome-Nation,AverageIncome,[Year],,,both,2023-05-04 00:03:15,P1,2023-05-04 00:03:16,1.0
+ActorSpawned,BP_RegionMarker3DWidgets_C_2146826966,,,,,,both,2023-05-04 00:03:16,P1,2023-05-04 00:03:18,2.0
+FilterSetCreated,FilterSet_WBP_BubbleGroup_C_2146826964,,,,2017,,both,2023-05-04 00:03:16,P1,2023-05-04 00:03:18,2.0
+DataViewCreated,DataView_2146826922,Income-Main,Income,"[Income, Year]",,,both,2023-05-04 00:03:16,P1,2023-05-04 00:03:18,2.0
+DataViewCreated,DataView_2146826921,Education-Age-Side,Income,"[AgeGroup, Gender, Year]",,,both,2023-05-04 00:03:16,P1,2023-05-04 00:03:18,2.0
+DataViewCreated,DataView_2146826920,Income-Education-Side,EducationIncome,"[Education, Year]",,,both,2023-05-04 00:03:16,P1,2023-05-04 00:03:18,2.0
+DataViewCreated,DataView_2146826919,AverageIncome-Nation,AverageIncome,[Year],,,both,2023-05-04 00:03:16,P1,2023-05-04 00:03:18,2.0
+ActorSpawned,BP_RegionMarker3DWidgets_C_2146826811,,,,,,both,2023-05-04 00:03:18,P1,2023-05-04 00:03:20,2.0
+FilterSetCreated,FilterSet_WBP_BubbleGroup_C_2146826809,,,,2017,,both,2023-05-04 00:03:18,P1,2023-05-04 00:03:20,2.0
+DataViewCreated,DataView_2146826767,Income-Main,Income,"[Income, Year]",,,both,2023-05-04 00:03:18,P1,2023-05-04 00:03:20,2.0
+DataViewCreated,DataView_2146826766,Education-Age-Side,Income,"[AgeGroup, Gender, Year]",,,both,2023-05-04 00:03:18,P1,2023-05-04 00:03:20,2.0
+DataViewCreated,DataView_2146826765,Income-Education-Side,EducationIncome,"[Education, Year]",,,both,2023-05-04 00:03:18,P1,2023-05-04 00:03:20,2.0
+DataViewCreated,DataView_2146826764,AverageIncome-Nation,AverageIncome,[Year],,,both,2023-05-04 00:03:18,P1,2023-05-04 00:03:20,2.0
+ActorSpawned,BP_RegionMarker3DWidgets_C_2146826656,,,,,,both,2023-05-04 00:03:20,P1,2023-05-04 00:03:23,3.0
+FilterSetCreated,FilterSet_WBP_BubbleGroup_C_2146826654,,,,2017,,both,2023-05-04 00:03:20,P1,2023-05-04 00:03:23,3.0
+DataViewCreated,DataView_2146826612,Income-Main,Income,"[Income, Year]",,,both,2023-05-04 00:03:20,P1,2023-05-04 00:03:23,3.0
+DataViewCreated,DataView_2146826611,Education-Age-Side,Income,"[AgeGroup, Gender, Year]",,,both,2023-05-04 00:03:20,P1,2023-05-04 00:03:23,3.0
+DataViewCreated,DataView_2146826610,Income-Education-Side,EducationIncome,"[Education, Year]",,,both,2023-05-04 00:03:20,P1,2023-05-04 00:03:23,3.0
+DataViewCreated,DataView_2146826609,AverageIncome-Nation,AverageIncome,[Year],,,both,2023-05-04 00:03:20,P1,2023-05-04 00:03:23,3.0
+ActorSpawned,BP_RegionMarker3DWidgets_C_2146826501,,,,,,both,2023-05-04 00:03:23,P1,2023-05-04 00:03:59,36.0
+FilterSetCreated,FilterSet_WBP_BubbleGroup_C_2146826499,,,,2017,,both,2023-05-04 00:03:23,P1,2023-05-04 00:03:59,36.0
+DataViewCreated,DataView_2146826457,Income-Main,Income,"[Income, Year]",,,both,2023-05-04 00:03:23,P1,2023-05-04 00:03:59,36.0
+DataViewCreated,DataView_2146826456,Education-Age-Side,Income,"[AgeGroup, Gender, Year]",,,both,2023-05-04 00:03:23,P1,2023-05-04 00:03:59,36.0
+DataViewCreated,DataView_2146826455,Income-Education-Side,EducationIncome,"[Education, Year]",,,both,2023-05-04 00:03:23,P1,2023-05-04 00:03:59,36.0
+DataViewCreated,DataView_2146826454,AverageIncome-Nation,AverageIncome,[Year],,,both,2023-05-04 00:03:23,P1,2023-05-04 00:03:59,36.0
+ActorDestroyed,BP_RegionMarker3DWidgets_C_2146827962,,,,,,both,2023-05-04 00:03:59,P1,2023-05-04 00:04:02,3.0
+FilterSetDestroyed,FilterSet_WBP_BubbleGroup_C_2146827960,,,,,,both,2023-05-04 00:03:59,P1,2023-05-04 00:04:02,3.0
+ActorSpawned,BP_RegionMarker3DWidgets_C_2146826342,,,,,,both,2023-05-04 00:04:02,P1,2023-05-04 00:04:11,9.0
+FilterSetCreated,FilterSet_WBP_BubbleGroup_C_2146826340,,,,2017,,both,2023-05-04 00:04:02,P1,2023-05-04 00:04:11,9.0
+DataViewCreated,DataView_2146826298,Income-Main,Income,"[Income, Year]",,,both,2023-05-04 00:04:02,P1,2023-05-04 00:04:11,9.0
+DataViewCreated,DataView_2146826297,Education-Age-Side,Income,"[AgeGroup, Gender, Year]",,,both,2023-05-04 00:04:02,P1,2023-05-04 00:04:11,9.0
+DataViewCreated,DataView_2146826296,Income-Education-Side,EducationIncome,"[Education, Year]",,,both,2023-05-04 00:04:02,P1,2023-05-04 00:04:11,9.0
+DataViewCreated,DataView_2146826295,AverageIncome-Nation,AverageIncome,[Year],,,both,2023-05-04 00:04:02,P1,2023-05-04 00:04:11,9.0
+ActorSpawned,BP_RegionMarker3DWidgets_C_2146826187,,,,,,both,2023-05-04 00:04:11,P1,2023-05-04 00:04:15,4.0
+FilterSetCreated,FilterSet_WBP_BubbleGroup_C_2146826185,,,,2017,,both,2023-05-04 00:04:11,P1,2023-05-04 00:04:15,4.0
+DataViewCreated,DataView_2146826143,Income-Main,Income,"[Income, Year]",,,both,2023-05-04 00:04:11,P1,2023-05-04 00:04:15,4.0
+DataViewCreated,DataView_2146826142,Education-Age-Side,Income,"[AgeGroup, Gender, Year]",,,both,2023-05-04 00:04:11,P1,2023-05-04 00:04:15,4.0
+DataViewCreated,DataView_2146826141,Income-Education-Side,EducationIncome,"[Education, Year]",,,both,2023-05-04 00:04:11,P1,2023-05-04 00:04:15,4.0
+DataViewCreated,DataView_2146826140,AverageIncome-Nation,AverageIncome,[Year],,,both,2023-05-04 00:04:11,P1,2023-05-04 00:04:15,4.0
+ActorDestroyed,BP_RegionMarker3DWidgets_C_2146826187,,,,,,both,2023-05-04 00:04:15,P1,2023-05-04 00:04:16,1.0
+FilterSetDestroyed,FilterSet_WBP_BubbleGroup_C_2146826185,,,,,,both,2023-05-04 00:04:15,P1,2023-05-04 00:04:16,1.0
+ActorSpawned,BP_RegionMarker3DWidgets_C_2146826028,,,,,,both,2023-05-04 00:04:16,P1,2023-05-04 00:04:19,3.0
+FilterSetCreated,FilterSet_WBP_BubbleGroup_C_2146826026,,,,2017,,both,2023-05-04 00:04:16,P1,2023-05-04 00:04:19,3.0
+DataViewCreated,DataView_2146825984,Income-Main,Income,"[Income, Year]",,,both,2023-05-04 00:04:16,P1,2023-05-04 00:04:19,3.0
+DataViewCreated,DataView_2146825983,Education-Age-Side,Income,"[AgeGroup, Gender, Year]",,,both,2023-05-04 00:04:16,P1,2023-05-04 00:04:19,3.0
+DataViewCreated,DataView_2146825982,Income-Education-Side,EducationIncome,"[Education, Year]",,,both,2023-05-04 00:04:16,P1,2023-05-04 00:04:19,3.0
+DataViewCreated,DataView_2146825981,AverageIncome-Nation,AverageIncome,[Year],,,both,2023-05-04 00:04:16,P1,2023-05-04 00:04:19,3.0
+ActorSpawned,BP_RegionMarker3DWidgets_C_2146825873,,,,,,both,2023-05-04 00:04:19,P1,2023-05-04 00:04:43,24.0
+FilterSetCreated,FilterSet_WBP_BubbleGroup_C_2146825871,,,,2017,,both,2023-05-04 00:04:19,P1,2023-05-04 00:04:43,24.0
+DataViewCreated,DataView_2146825829,Income-Main,Income,"[Income, Year]",,,both,2023-05-04 00:04:19,P1,2023-05-04 00:04:43,24.0
+DataViewCreated,DataView_2146825828,Education-Age-Side,Income,"[AgeGroup, Gender, Year]",,,both,2023-05-04 00:04:19,P1,2023-05-04 00:04:43,24.0
+DataViewCreated,DataView_2146825827,Income-Education-Side,EducationIncome,"[Education, Year]",,,both,2023-05-04 00:04:19,P1,2023-05-04 00:04:43,24.0
+DataViewCreated,DataView_2146825826,AverageIncome-Nation,AverageIncome,[Year],,,both,2023-05-04 00:04:19,P1,2023-05-04 00:04:43,24.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146827274,,,,2017,Link?ping,both,2023-05-04 00:04:43,P1,2023-05-04 00:04:45,2.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146827274,,,,2017,Link?ping,both,2023-05-04 00:04:45,P1,2023-05-04 00:04:47,2.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146827274,,,,2017,Link?ping,both,2023-05-04 00:04:47,P1,2023-05-04 00:04:48,1.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146827274,,,,2017,Link?ping,both,2023-05-04 00:04:48,P1,2023-05-04 00:05:21,33.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146826964,,,,2017,Boxholm,both,2023-05-04 00:05:21,P1,2023-05-04 00:05:22,1.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146826964,,,,2017,Boxholm,female,2023-05-04 00:05:21,P1,2023-05-04 00:05:22,1.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146826026,,,,2017,?desh?g,both,2023-05-04 00:05:22,P1,2023-05-04 00:05:23,1.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146826026,,,,2017,?desh?g,female,2023-05-04 00:05:23,P1,2023-05-04 00:05:25,2.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146825871,,,,2017,S?derk?ping,both,2023-05-04 00:05:25,P1,2023-05-04 00:05:26,1.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146825871,,,,2017,S?derk?ping,female,2023-05-04 00:05:26,P1,2023-05-04 00:05:28,2.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146826340,,,,2017,Motala,both,2023-05-04 00:05:28,P1,2023-05-04 00:05:37,9.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146826340,,,,2017,Motala,female,2023-05-04 00:05:28,P1,2023-05-04 00:05:37,9.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146826026,,,,2017,?desh?g,both,2023-05-04 00:05:37,P1,2023-05-04 00:05:38,1.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146826026,,,,2017,?desh?g,female,2023-05-04 00:05:38,P1,2023-05-04 00:05:40,2.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146827274,,,,2017,Link?ping,both,2023-05-04 00:05:40,P1,2023-05-04 00:05:41,1.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146827274,,,,2017,Link?ping,female,2023-05-04 00:05:41,P1,2023-05-04 00:05:45,4.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146826654,,,,2017,Kinda,both,2023-05-04 00:05:45,P1,2023-05-04 00:05:46,1.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146826654,,,,2017,Kinda,female,2023-05-04 00:05:45,P1,2023-05-04 00:05:46,1.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146826499,,,,2017,Mj?lby,both,2023-05-04 00:05:46,P1,2023-05-04 00:05:47,1.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146826499,,,,2017,Mj?lby,female,2023-05-04 00:05:47,P1,2023-05-04 00:05:49,2.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146826809,,,,2017,Finsp?ng,both,2023-05-04 00:05:49,P1,2023-05-04 00:05:52,3.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146826809,,,,2017,Finsp?ng,female,2023-05-04 00:05:49,P1,2023-05-04 00:05:52,3.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146827429,,,,2017,Norrk?ping,both,2023-05-04 00:05:52,P1,2023-05-04 00:05:53,1.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146827429,,,,2017,Norrk?ping,female,2023-05-04 00:05:53,P1,2023-05-04 00:05:54,1.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146827119,,,,2017,?tvidaberg,both,2023-05-04 00:05:54,P1,2023-05-04 00:06:24,30.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146827119,,,,2017,?tvidaberg,female,2023-05-04 00:05:54,P1,2023-05-04 00:06:24,30.0
+ActorDestroyed,BP_RegionMarker3DWidgets_C_2146827121,,,,,,both,2023-05-04 00:06:24,P1,2023-05-04 00:06:26,2.0
+FilterSetDestroyed,FilterSet_WBP_BubbleGroup_C_2146827119,,,,,,both,2023-05-04 00:06:24,P1,2023-05-04 00:06:26,2.0
+ActorDestroyed,BP_RegionMarker3DWidgets_C_2146827431,,,,,,both,2023-05-04 00:06:26,P1,2023-05-04 00:06:27,1.0
+FilterSetDestroyed,FilterSet_WBP_BubbleGroup_C_2146827429,,,,,,both,2023-05-04 00:06:26,P1,2023-05-04 00:06:27,1.0
+ActorDestroyed,BP_RegionMarker3DWidgets_C_2146826656,,,,,,both,2023-05-04 00:06:27,P1,2023-05-04 00:06:28,1.0
+FilterSetDestroyed,FilterSet_WBP_BubbleGroup_C_2146826654,,,,,,both,2023-05-04 00:06:27,P1,2023-05-04 00:06:28,1.0
+ActorDestroyed,BP_RegionMarker3DWidgets_C_2146826028,,,,,,both,2023-05-04 00:06:28,P1,2023-05-04 00:06:29,1.0
+FilterSetDestroyed,FilterSet_WBP_BubbleGroup_C_2146826026,,,,,,both,2023-05-04 00:06:28,P1,2023-05-04 00:06:29,1.0
+ActorDestroyed,BP_RegionMarker3DWidgets_C_2146826966,,,,,,both,2023-05-04 00:06:28,P1,2023-05-04 00:06:29,1.0
+FilterSetDestroyed,FilterSet_WBP_BubbleGroup_C_2146826964,,,,,,both,2023-05-04 00:06:28,P1,2023-05-04 00:06:29,1.0
+ActorDestroyed,BP_RegionMarker3DWidgets_C_2146826501,,,,,,both,2023-05-04 00:06:29,P1,2023-05-04 00:06:30,1.0
+FilterSetDestroyed,FilterSet_WBP_BubbleGroup_C_2146826499,,,,,,both,2023-05-04 00:06:29,P1,2023-05-04 00:06:30,1.0
+ActorDestroyed,BP_RegionMarker3DWidgets_C_2146826811,,,,,,both,2023-05-04 00:06:30,P1,2023-05-04 00:06:31,1.0
+FilterSetDestroyed,FilterSet_WBP_BubbleGroup_C_2146826809,,,,,,both,2023-05-04 00:06:30,P1,2023-05-04 00:06:31,1.0
+ActorDestroyed,BP_RegionMarker3DWidgets_C_2146825873,,,,,,both,2023-05-04 00:06:31,P1,2023-05-04 00:06:36,5.0
+FilterSetDestroyed,FilterSet_WBP_BubbleGroup_C_2146825871,,,,,,both,2023-05-04 00:06:31,P1,2023-05-04 00:06:36,5.0
+ActorDestroyed,BP_RegionMarker3DWidgets_C_2146826342,,,,,,both,2023-05-04 00:06:31,P1,2023-05-04 00:06:36,5.0
+FilterSetDestroyed,FilterSet_WBP_BubbleGroup_C_2146826340,,,,,,both,2023-05-04 00:06:31,P1,2023-05-04 00:06:36,5.0
+ActorSpawned,BP_RegionMarker3DWidgets_C_2146825668,,,,,,both,2023-05-04 00:06:36,P1,2023-05-04 00:06:38,2.0
+FilterSetCreated,FilterSet_WBP_BubbleGroup_C_2146825666,,,,2017,,both,2023-05-04 00:06:36,P1,2023-05-04 00:06:38,2.0
+DataViewCreated,DataView_2146825624,Income-Main,Income,"[Income, Year]",,,both,2023-05-04 00:06:36,P1,2023-05-04 00:06:38,2.0
+DataViewCreated,DataView_2146825623,Education-Age-Side,Income,"[AgeGroup, Gender, Year]",,,both,2023-05-04 00:06:36,P1,2023-05-04 00:06:38,2.0
+DataViewCreated,DataView_2146825622,Income-Education-Side,EducationIncome,"[Education, Year]",,,both,2023-05-04 00:06:36,P1,2023-05-04 00:06:38,2.0
+DataViewCreated,DataView_2146825621,AverageIncome-Nation,AverageIncome,[Year],,,both,2023-05-04 00:06:36,P1,2023-05-04 00:06:38,2.0
+ActorSpawned,BP_RegionMarker3DWidgets_C_2146825513,,,,,,both,2023-05-04 00:06:38,P1,2023-05-04 00:06:40,2.0
+FilterSetCreated,FilterSet_WBP_BubbleGroup_C_2146825511,,,,2017,,both,2023-05-04 00:06:38,P1,2023-05-04 00:06:40,2.0
+DataViewCreated,DataView_2146825469,Income-Main,Income,"[Income, Year]",,,both,2023-05-04 00:06:38,P1,2023-05-04 00:06:40,2.0
+DataViewCreated,DataView_2146825468,Education-Age-Side,Income,"[AgeGroup, Gender, Year]",,,both,2023-05-04 00:06:38,P1,2023-05-04 00:06:40,2.0
+DataViewCreated,DataView_2146825467,Income-Education-Side,EducationIncome,"[Education, Year]",,,both,2023-05-04 00:06:38,P1,2023-05-04 00:06:40,2.0
+DataViewCreated,DataView_2146825466,AverageIncome-Nation,AverageIncome,[Year],,,both,2023-05-04 00:06:38,P1,2023-05-04 00:06:40,2.0
+ActorSpawned,BP_RegionMarker3DWidgets_C_2146825358,,,,,,both,2023-05-04 00:06:40,P1,2023-05-04 00:06:42,2.0
+FilterSetCreated,FilterSet_WBP_BubbleGroup_C_2146825356,,,,2017,,both,2023-05-04 00:06:40,P1,2023-05-04 00:06:42,2.0
+DataViewCreated,DataView_2146825314,Income-Main,Income,"[Income, Year]",,,both,2023-05-04 00:06:40,P1,2023-05-04 00:06:42,2.0
+DataViewCreated,DataView_2146825313,Education-Age-Side,Income,"[AgeGroup, Gender, Year]",,,both,2023-05-04 00:06:40,P1,2023-05-04 00:06:42,2.0
+DataViewCreated,DataView_2146825312,Income-Education-Side,EducationIncome,"[Education, Year]",,,both,2023-05-04 00:06:40,P1,2023-05-04 00:06:42,2.0
+DataViewCreated,DataView_2146825311,AverageIncome-Nation,AverageIncome,[Year],,,both,2023-05-04 00:06:40,P1,2023-05-04 00:06:42,2.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146825511,,,,1999,Valdemarsvik,both,2023-05-04 00:06:42,P1,2023-05-04 00:06:43,1.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146825511,,,,2002,Valdemarsvik,both,2023-05-04 00:06:42,P1,2023-05-04 00:06:43,1.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146825511,,,,2005,Valdemarsvik,both,2023-05-04 00:06:42,P1,2023-05-04 00:06:43,1.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146825511,,,,2008,Valdemarsvik,both,2023-05-04 00:06:42,P1,2023-05-04 00:06:43,1.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146825511,,,,2010,Valdemarsvik,both,2023-05-04 00:06:42,P1,2023-05-04 00:06:43,1.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146825511,,,,2012,Valdemarsvik,both,2023-05-04 00:06:42,P1,2023-05-04 00:06:43,1.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146825511,,,,2013,Valdemarsvik,both,2023-05-04 00:06:42,P1,2023-05-04 00:06:43,1.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146825356,,,,2017,Ydre,both,2023-05-04 00:06:43,P1,2023-05-04 00:06:44,1.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146825356,,,,2017,Ydre,female,2023-05-04 00:06:44,P1,2023-05-04 00:06:45,1.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146825666,,,,2017,Vadstena,both,2023-05-04 00:06:44,P1,2023-05-04 00:06:45,1.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146825666,,,,2017,Vadstena,female,2023-05-04 00:06:45,P1,2023-05-04 00:06:46,1.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146825511,,,,2006,Valdemarsvik,both,2023-05-04 00:06:46,P1,2023-05-04 00:06:49,3.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146825511,,,,2007,Valdemarsvik,both,2023-05-04 00:06:46,P1,2023-05-04 00:06:49,3.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146825511,,,,2008,Valdemarsvik,both,2023-05-04 00:06:46,P1,2023-05-04 00:06:49,3.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146825511,,,,2010,Valdemarsvik,both,2023-05-04 00:06:46,P1,2023-05-04 00:06:49,3.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146825511,,,,2012,Valdemarsvik,both,2023-05-04 00:06:46,P1,2023-05-04 00:06:49,3.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146825511,,,,2014,Valdemarsvik,both,2023-05-04 00:06:46,P1,2023-05-04 00:06:49,3.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146825511,,,,2017,Valdemarsvik,both,2023-05-04 00:06:46,P1,2023-05-04 00:06:49,3.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146825511,,,,2017,Valdemarsvik,both,2023-05-04 00:06:49,P1,2023-05-04 00:06:50,1.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146825511,,,,2017,Valdemarsvik,female,2023-05-04 00:06:50,P1,2023-05-04 00:07:20,30.0
+ActorDestroyed,BP_RegionMarker3DWidgets_C_2146827276,,,,,,both,2023-05-04 00:07:20,P1,2023-05-04 00:07:24,4.0
+FilterSetDestroyed,FilterSet_WBP_BubbleGroup_C_2146827274,,,,,,both,2023-05-04 00:07:20,P1,2023-05-04 00:07:24,4.0
+ActorDestroyed,BP_RegionMarker3DWidgets_C_2146825358,,,,,,both,2023-05-04 00:07:20,P1,2023-05-04 00:07:24,4.0
+FilterSetDestroyed,FilterSet_WBP_BubbleGroup_C_2146825356,,,,,,both,2023-05-04 00:07:20,P1,2023-05-04 00:07:24,4.0
+ActorDestroyed,BP_RegionMarker3DWidgets_C_2146825513,,,,,,both,2023-05-04 00:07:24,P1,2023-05-04 00:07:25,1.0
+FilterSetDestroyed,FilterSet_WBP_BubbleGroup_C_2146825511,,,,,,both,2023-05-04 00:07:24,P1,2023-05-04 00:07:25,1.0
+ActorDestroyed,BP_RegionMarker3DWidgets_C_2146825668,,,,,,both,2023-05-04 00:07:25,P1,2023-05-04 00:07:29,4.0
+FilterSetDestroyed,FilterSet_WBP_BubbleGroup_C_2146825666,,,,,,both,2023-05-04 00:07:25,P1,2023-05-04 00:07:29,4.0
+ActorSpawned,BP_RegionMarker3DWidgets_C_2146825184,,,,,,both,2023-05-04 00:07:25,P1,2023-05-04 00:07:29,4.0
+FilterSetCreated,FilterSet_WBP_BubbleGroup_C_2146825182,,,,2017,,both,2023-05-04 00:07:25,P1,2023-05-04 00:07:29,4.0
+DataViewCreated,DataView_2146825140,Income-Main,Income,"[Income, Year]",,,both,2023-05-04 00:07:25,P1,2023-05-04 00:07:29,4.0
+DataViewCreated,DataView_2146825139,Education-Age-Side,Income,"[AgeGroup, Gender, Year]",,,both,2023-05-04 00:07:25,P1,2023-05-04 00:07:29,4.0
+DataViewCreated,DataView_2146825138,Income-Education-Side,EducationIncome,"[Education, Year]",,,both,2023-05-04 00:07:25,P1,2023-05-04 00:07:29,4.0
+DataViewCreated,DataView_2146825137,AverageIncome-Nation,AverageIncome,[Year],,,both,2023-05-04 00:07:25,P1,2023-05-04 00:07:29,4.0
+ActorSpawned,BP_RegionMarker3DWidgets_C_2146825029,,,,,,both,2023-05-04 00:07:29,P1,2023-05-04 00:07:31,2.0
+FilterSetCreated,FilterSet_WBP_BubbleGroup_C_2146825027,,,,2017,,both,2023-05-04 00:07:29,P1,2023-05-04 00:07:31,2.0
+DataViewCreated,DataView_2146824985,Income-Main,Income,"[Income, Year]",,,both,2023-05-04 00:07:29,P1,2023-05-04 00:07:31,2.0
+DataViewCreated,DataView_2146824984,Education-Age-Side,Income,"[AgeGroup, Gender, Year]",,,both,2023-05-04 00:07:29,P1,2023-05-04 00:07:31,2.0
+DataViewCreated,DataView_2146824983,Income-Education-Side,EducationIncome,"[Education, Year]",,,both,2023-05-04 00:07:29,P1,2023-05-04 00:07:31,2.0
+DataViewCreated,DataView_2146824982,AverageIncome-Nation,AverageIncome,[Year],,,both,2023-05-04 00:07:29,P1,2023-05-04 00:07:31,2.0
+ActorDestroyed,BP_RegionMarker3DWidgets_C_2146825029,,,,,,both,2023-05-04 00:07:31,P1,2023-05-04 00:07:32,1.0
+FilterSetDestroyed,FilterSet_WBP_BubbleGroup_C_2146825027,,,,,,both,2023-05-04 00:07:31,P1,2023-05-04 00:07:32,1.0
+Task 4,,,,,,,,2023-05-04 00:07:31,P1,2023-05-04 00:07:32,1.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146825182,,,,2017,Norrk?ping,both,2023-05-04 00:07:32,P1,2023-05-04 00:07:37,5.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146825182,,,,2016,Norrk?ping,both,2023-05-04 00:07:37,P1,2023-05-04 00:07:38,1.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146825182,,,,2015,Norrk?ping,both,2023-05-04 00:07:37,P1,2023-05-04 00:07:38,1.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146825182,,,,2014,Norrk?ping,both,2023-05-04 00:07:37,P1,2023-05-04 00:07:38,1.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146825182,,,,2013,Norrk?ping,both,2023-05-04 00:07:37,P1,2023-05-04 00:07:38,1.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146825182,,,,2012,Norrk?ping,both,2023-05-04 00:07:37,P1,2023-05-04 00:07:38,1.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146825182,,,,2011,Norrk?ping,both,2023-05-04 00:07:37,P1,2023-05-04 00:07:38,1.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146825182,,,,2010,Norrk?ping,both,2023-05-04 00:07:37,P1,2023-05-04 00:07:38,1.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146825182,,,,2009,Norrk?ping,both,2023-05-04 00:07:37,P1,2023-05-04 00:07:38,1.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146825182,,,,2008,Norrk?ping,both,2023-05-04 00:07:37,P1,2023-05-04 00:07:38,1.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146825182,,,,2007,Norrk?ping,both,2023-05-04 00:07:38,P1,2023-05-04 00:07:44,6.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146825182,,,,2006,Norrk?ping,both,2023-05-04 00:07:38,P1,2023-05-04 00:07:44,6.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146825182,,,,2005,Norrk?ping,both,2023-05-04 00:07:38,P1,2023-05-04 00:07:44,6.0
+ActorSpawned,BP_RegionMarker3DWidgets_C_2146824869,,,,,,both,2023-05-04 00:07:44,P1,2023-05-04 00:07:47,3.0
+FilterSetCreated,FilterSet_WBP_BubbleGroup_C_2146824867,,,,2017,,both,2023-05-04 00:07:44,P1,2023-05-04 00:07:47,3.0
+DataViewCreated,DataView_2146824825,Income-Main,Income,"[Income, Year]",,,both,2023-05-04 00:07:44,P1,2023-05-04 00:07:47,3.0
+DataViewCreated,DataView_2146824824,Education-Age-Side,Income,"[AgeGroup, Gender, Year]",,,both,2023-05-04 00:07:44,P1,2023-05-04 00:07:47,3.0
+DataViewCreated,DataView_2146824823,Income-Education-Side,EducationIncome,"[Education, Year]",,,both,2023-05-04 00:07:44,P1,2023-05-04 00:07:47,3.0
+DataViewCreated,DataView_2146824822,AverageIncome-Nation,AverageIncome,[Year],,,both,2023-05-04 00:07:44,P1,2023-05-04 00:07:47,3.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146824867,,,,2017,Norrk?ping,both,2023-05-04 00:07:47,P1,2023-05-04 00:07:54,7.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146825182,,,,2005,Norrk?ping,both,2023-05-04 00:07:54,P1,2023-05-04 00:07:57,3.0
+DataViewDestroyed,DataView_2146825137,AverageIncome-Nation,AverageIncome,[],,,both,2023-05-04 00:07:54,P1,2023-05-04 00:07:57,3.0
+DataViewCreated,DataView_2146824713,IncomeDynamic-Nation,Income,"[Income, Gender, Year]",,,both,2023-05-04 00:07:54,P1,2023-05-04 00:07:57,3.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146825182,,,,2005,Norrk?ping,both,2023-05-04 00:07:57,P1,2023-05-04 00:08:00,3.0
+DataViewDestroyed,DataView_2146824713,IncomeDynamic-Nation,Income,[],,,both,2023-05-04 00:07:57,P1,2023-05-04 00:08:00,3.0
+DataViewCreated,DataView_2146824712,AverageIncome-Nation,AverageIncome,[Year],,,both,2023-05-04 00:07:57,P1,2023-05-04 00:08:00,3.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146824867,,,,2017,Norrk?ping,female,2023-05-04 00:08:00,P1,2023-05-04 00:08:02,2.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146825182,,,,2005,Norrk?ping,male,2023-05-04 00:08:02,P1,2023-05-04 00:08:17,15.0
+ActorSpawned,BP_RegionMarker3DWidgets_C_2146824711,,,,,,both,2023-05-04 00:08:17,P1,2023-05-04 00:08:19,2.0
+FilterSetCreated,FilterSet_WBP_BubbleGroup_C_2146824709,,,,2017,,both,2023-05-04 00:08:17,P1,2023-05-04 00:08:19,2.0
+DataViewCreated,DataView_2146824667,Income-Main,Income,"[Income, Year]",,,both,2023-05-04 00:08:17,P1,2023-05-04 00:08:19,2.0
+DataViewCreated,DataView_2146824666,Education-Age-Side,Income,"[AgeGroup, Gender, Year]",,,both,2023-05-04 00:08:17,P1,2023-05-04 00:08:19,2.0
+DataViewCreated,DataView_2146824665,Income-Education-Side,EducationIncome,"[Education, Year]",,,both,2023-05-04 00:08:17,P1,2023-05-04 00:08:19,2.0
+DataViewCreated,DataView_2146824664,AverageIncome-Nation,AverageIncome,[Year],,,both,2023-05-04 00:08:17,P1,2023-05-04 00:08:19,2.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146824709,,,,2017,Norrk?ping,both,2023-05-04 00:08:19,P1,2023-05-04 00:08:21,2.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146824709,,,,2017,Norrk?ping,male,2023-05-04 00:08:21,P1,2023-05-04 00:08:23,2.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146824709,,,,2016,Norrk?ping,male,2023-05-04 00:08:23,P1,2023-05-04 00:08:24,1.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146824709,,,,2017,Norrk?ping,male,2023-05-04 00:08:23,P1,2023-05-04 00:08:24,1.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146824709,,,,2014,Norrk?ping,male,2023-05-04 00:08:23,P1,2023-05-04 00:08:24,1.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146824709,,,,2016,Norrk?ping,male,2023-05-04 00:08:23,P1,2023-05-04 00:08:24,1.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146824709,,,,2013,Norrk?ping,male,2023-05-04 00:08:23,P1,2023-05-04 00:08:24,1.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146824709,,,,2011,Norrk?ping,male,2023-05-04 00:08:23,P1,2023-05-04 00:08:24,1.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146824709,,,,2012,Norrk?ping,male,2023-05-04 00:08:23,P1,2023-05-04 00:08:24,1.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146824709,,,,2010,Norrk?ping,male,2023-05-04 00:08:23,P1,2023-05-04 00:08:24,1.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146824709,,,,2011,Norrk?ping,male,2023-05-04 00:08:23,P1,2023-05-04 00:08:24,1.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146824709,,,,2008,Norrk?ping,male,2023-05-04 00:08:23,P1,2023-05-04 00:08:24,1.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146824709,,,,2009,Norrk?ping,male,2023-05-04 00:08:23,P1,2023-05-04 00:08:24,1.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146824709,,,,2008,Norrk?ping,male,2023-05-04 00:08:23,P1,2023-05-04 00:08:24,1.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146824709,,,,2007,Norrk?ping,male,2023-05-04 00:08:23,P1,2023-05-04 00:08:24,1.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146824709,,,,2008,Norrk?ping,male,2023-05-04 00:08:23,P1,2023-05-04 00:08:24,1.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146824709,,,,2007,Norrk?ping,male,2023-05-04 00:08:23,P1,2023-05-04 00:08:24,1.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146824709,,,,2006,Norrk?ping,male,2023-05-04 00:08:23,P1,2023-05-04 00:08:24,1.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146824709,,,,2007,Norrk?ping,male,2023-05-04 00:08:23,P1,2023-05-04 00:08:24,1.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146824709,,,,2006,Norrk?ping,male,2023-05-04 00:08:23,P1,2023-05-04 00:08:24,1.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146824709,,,,2005,Norrk?ping,male,2023-05-04 00:08:24,P1,2023-05-04 00:08:25,1.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146824709,,,,2006,Norrk?ping,male,2023-05-04 00:08:24,P1,2023-05-04 00:08:25,1.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146824709,,,,2005,Norrk?ping,male,2023-05-04 00:08:24,P1,2023-05-04 00:08:25,1.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146824709,,,,2017,Norrk?ping,male,2023-05-04 00:08:25,P1,2023-05-04 00:08:26,1.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146824709,,,,2016,Norrk?ping,male,2023-05-04 00:08:26,P1,2023-05-04 00:08:27,1.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146824709,,,,2015,Norrk?ping,male,2023-05-04 00:08:26,P1,2023-05-04 00:08:27,1.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146824709,,,,2012,Norrk?ping,male,2023-05-04 00:08:26,P1,2023-05-04 00:08:27,1.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146824709,,,,2008,Norrk?ping,male,2023-05-04 00:08:26,P1,2023-05-04 00:08:27,1.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146824709,,,,2007,Norrk?ping,male,2023-05-04 00:08:26,P1,2023-05-04 00:08:27,1.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146824709,,,,2006,Norrk?ping,male,2023-05-04 00:08:26,P1,2023-05-04 00:08:27,1.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146824709,,,,2005,Norrk?ping,male,2023-05-04 00:08:26,P1,2023-05-04 00:08:27,1.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146824709,,,,2006,Norrk?ping,male,2023-05-04 00:08:27,P1,2023-05-04 00:08:28,1.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146824709,,,,2005,Norrk?ping,male,2023-05-04 00:08:27,P1,2023-05-04 00:08:28,1.0
+ActorSpawned,BP_RegionMarker3DWidgets_C_2146824555,,,,,,both,2023-05-04 00:08:28,P1,2023-05-04 00:08:30,2.0
+FilterSetCreated,FilterSet_WBP_BubbleGroup_C_2146824553,,,,2017,,both,2023-05-04 00:08:28,P1,2023-05-04 00:08:30,2.0
+DataViewCreated,DataView_2146824511,Income-Main,Income,"[Income, Year]",,,both,2023-05-04 00:08:28,P1,2023-05-04 00:08:30,2.0
+DataViewCreated,DataView_2146824510,Education-Age-Side,Income,"[AgeGroup, Gender, Year]",,,both,2023-05-04 00:08:28,P1,2023-05-04 00:08:30,2.0
+DataViewCreated,DataView_2146824509,Income-Education-Side,EducationIncome,"[Education, Year]",,,both,2023-05-04 00:08:28,P1,2023-05-04 00:08:30,2.0
+DataViewCreated,DataView_2146824508,AverageIncome-Nation,AverageIncome,[Year],,,both,2023-05-04 00:08:28,P1,2023-05-04 00:08:30,2.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146824553,,,,2017,Norrk?ping,both,2023-05-04 00:08:30,P1,2023-05-04 00:08:33,3.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146824553,,,,2017,Norrk?ping,male,2023-05-04 00:08:33,P1,2023-05-04 00:08:39,6.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146825182,,,,2005,Norrk?ping,female,2023-05-04 00:08:39,P1,2023-05-04 00:11:00,141.0
+Task 5,,,,,,,,2023-05-04 00:11:00,P1,2023-05-04 00:11:39,39.0
+ActorDestroyed,BP_RegionMarker3DWidgets_C_2146824711,,,,,,both,2023-05-04 00:11:39,P1,2023-05-04 00:11:41,2.0
+FilterSetDestroyed,FilterSet_WBP_BubbleGroup_C_2146824709,,,,,,both,2023-05-04 00:11:39,P1,2023-05-04 00:11:41,2.0
+ActorDestroyed,BP_RegionMarker3DWidgets_C_2146824555,,,,,,both,2023-05-04 00:11:41,P1,2023-05-04 00:11:43,2.0
+FilterSetDestroyed,FilterSet_WBP_BubbleGroup_C_2146824553,,,,,,both,2023-05-04 00:11:41,P1,2023-05-04 00:11:43,2.0
+ActorSpawned,BP_RegionMarker3DWidgets_C_2146824389,,,,,,both,2023-05-04 00:11:43,P1,2023-05-04 00:11:46,3.0
+FilterSetCreated,FilterSet_WBP_BubbleGroup_C_2146824387,,,,2017,,both,2023-05-04 00:11:43,P1,2023-05-04 00:11:46,3.0
+DataViewCreated,DataView_2146824345,Income-Main,Income,"[Income, Year]",,,both,2023-05-04 00:11:43,P1,2023-05-04 00:11:46,3.0
+DataViewCreated,DataView_2146824344,Education-Age-Side,Income,"[AgeGroup, Gender, Year]",,,both,2023-05-04 00:11:43,P1,2023-05-04 00:11:46,3.0
+DataViewCreated,DataView_2146824343,Income-Education-Side,EducationIncome,"[Education, Year]",,,both,2023-05-04 00:11:43,P1,2023-05-04 00:11:46,3.0
+DataViewCreated,DataView_2146824342,AverageIncome-Nation,AverageIncome,[Year],,,both,2023-05-04 00:11:43,P1,2023-05-04 00:11:46,3.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146824387,,,,2017,Norrk?ping,both,2023-05-04 00:11:46,P1,2023-05-04 00:11:55,9.0
+ActorSpawned,BP_RegionMarker3DWidgets_C_2146824233,,,,,,both,2023-05-04 00:11:55,P1,2023-05-04 00:11:59,4.0
+FilterSetCreated,FilterSet_WBP_BubbleGroup_C_2146824231,,,,2017,,both,2023-05-04 00:11:55,P1,2023-05-04 00:11:59,4.0
+DataViewCreated,DataView_2146824189,Income-Main,Income,"[Income, Year]",,,both,2023-05-04 00:11:55,P1,2023-05-04 00:11:59,4.0
+DataViewCreated,DataView_2146824188,Education-Age-Side,Income,"[AgeGroup, Gender, Year]",,,both,2023-05-04 00:11:55,P1,2023-05-04 00:11:59,4.0
+DataViewCreated,DataView_2146824187,Income-Education-Side,EducationIncome,"[Education, Year]",,,both,2023-05-04 00:11:55,P1,2023-05-04 00:11:59,4.0
+DataViewCreated,DataView_2146824186,AverageIncome-Nation,AverageIncome,[Year],,,both,2023-05-04 00:11:55,P1,2023-05-04 00:11:59,4.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146824387,,,,2017,Norrk?ping,female,2023-05-04 00:11:59,P1,2023-05-04 00:12:04,5.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146824231,,,,2017,Norrk?ping,both,2023-05-04 00:12:04,P1,2023-05-04 00:12:07,3.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146824231,,,,2017,Norrk?ping,female,2023-05-04 00:12:07,P1,2023-05-04 00:12:08,1.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146824231,,,,2017,Norrk?ping,male,2023-05-04 00:12:08,P1,2023-05-04 00:12:12,4.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146824387,,,,2017,Norrk?ping,male,2023-05-04 00:12:12,P1,2023-05-04 00:12:13,1.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146824387,,,,2016,Norrk?ping,male,2023-05-04 00:12:13,P1,2023-05-04 00:12:14,1.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146824387,,,,2014,Norrk?ping,male,2023-05-04 00:12:13,P1,2023-05-04 00:12:14,1.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146824387,,,,2012,Norrk?ping,male,2023-05-04 00:12:13,P1,2023-05-04 00:12:14,1.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146824387,,,,2010,Norrk?ping,male,2023-05-04 00:12:13,P1,2023-05-04 00:12:14,1.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146824387,,,,2008,Norrk?ping,male,2023-05-04 00:12:13,P1,2023-05-04 00:12:14,1.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146824387,,,,2007,Norrk?ping,male,2023-05-04 00:12:13,P1,2023-05-04 00:12:14,1.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146824387,,,,2006,Norrk?ping,male,2023-05-04 00:12:13,P1,2023-05-04 00:12:14,1.0
+FilterSetUpdated,FilterSet_WBP_BubbleGroup_C_2146824387,,,,2005,Norrk?ping,male,2023-05-04 00:12:14,P1,2023-05-04 00:12:14,0.0
+Task 6,,,,,,,,2023-05-04 00:12:14,P1,2023-05-04 00:12:17,3.0
