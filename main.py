@@ -4,9 +4,9 @@ from dash import html, dcc, ctx
 from dash.dependencies import Input, Output, State
 from datetime import datetime, timedelta
 # from dash import dcc
-# import dash_daq as daq
-# from scipy.spatial.distance import cosine
-# from sklearn.feature_extraction.text import TfidfVectorizer
+import dash_daq as daq
+from scipy.spatial.distance import cosine
+from sklearn.feature_extraction.text import TfidfVectorizer
 from plotly.subplots import make_subplots
 
 import pandas as pd
@@ -172,10 +172,23 @@ app.layout = html.Div(
                     #     value='scatter',
                     #     style={'marginBottom': '3px'}
                     # ),
+
+                    dcc.RadioItems(
+                        id='line_scatter_switch_individual',
+                        options=[{'label': 'Scatter', 'value': 'scatter'},
+                                 {'label': 'Line', 'value': 'line'}],
+                        value='scatter',
+                        style={'marginBottom': '3px'}
+                    ),
+                    dcc.Checklist(
+                        id='line_interpolation_individual',
+                        options=[{'label': '', 'value': True}],
+                        value=[],
+                    ),
                     dcc.Checklist(
                         id='toggle_timestamp',
                         options=[{'label': 'Toggle task timestamp', 'value': True}],
-                        value=[],
+                        value=[True],
                     ),
                 ], style={'display': 'inline-block', 'width': '300px',
                           'marginLeft': '20px', 'border': '1px solid black', 'verticalAlign': 'top'}),
@@ -270,9 +283,9 @@ app.layout = html.Div(
 
                 html.Div([
                     # Task selection
-                    html.P('Attribute plot customization', style={'paddingLeft': '4px'}),
+                    html.P('Plot customization', style={'paddingLeft': '4px'}),
                     dcc.RadioItems(
-                        id='line_scatter_switch',
+                        id='line_scatter_switch_comp',
                         options=[{'label': 'Scatter', 'value': 'scatter'},
                                  {'label': 'Line', 'value': 'line'}],
                         value='scatter',
@@ -297,14 +310,14 @@ app.layout = html.Div(
 )
 
 
-# Switch for the 'Line Interpolation' option
+# Switch for the 'Line Interpolation' option in comparison view
 @app.callback(
     Output('line_interpolation', 'options'),
     Output('line_interpolation', 'style'),
-    Input('line_scatter_switch', 'value'),
+    Input('line_scatter_switch_comp', 'value'),
 )
-def color_button_toggle(line_scatter_switch):
-    if line_scatter_switch == 'scatter':
+def color_button_toggle(line_scatter_switch_comp):
+    if line_scatter_switch_comp == 'scatter':
         new_options = [{'label': 'Attribute interpolation', 'value': False, 'disabled': True}]
         new_style = {'color': 'lightGray'}
         return new_options, new_style
@@ -337,10 +350,10 @@ def color_button_toggle(comp_task_selection):
     Input('comp_attribute_selection', 'value'),
     Input('comp_task_selection', 'value'),
     Input('task_aligned', 'value'),
-    Input('line_scatter_switch', 'value'),
+    Input('line_scatter_switch_comp', 'value'),
     Input('line_interpolation', 'value'),
 )
-def comparison_plot_control(comp_attribute_selection, comp_task_selection, task_aligned, line_scatter_switch,
+def comparison_plot_control(comp_attribute_selection, comp_task_selection, task_aligned, line_scatter_switch_comp,
                             line_interpolation):
     num_dfs = len(df_bubble_bg_list)
     fig = make_subplots(shared_xaxes=True, specs=[[{"secondary_y": True}]] * num_dfs, rows=num_dfs, cols=1,
@@ -391,7 +404,7 @@ def comparison_plot_control(comp_attribute_selection, comp_task_selection, task_
         bubble_df_filtered.reset_index(drop=True, inplace=True)
 
         # Attribute plots
-        if line_scatter_switch == 'scatter':
+        if line_scatter_switch_comp == 'scatter':
             attr_plot = px.scatter(attr_df_filtered, x='start', y=comp_attribute_selection, color='participant')
         else:
             if line_interpolation:
@@ -529,6 +542,22 @@ def comparison_plot_control(comp_attribute_selection, comp_task_selection, task_
 #
 #     return round(similarity, 2)  # f"Button clicked\nState values: cos_1 = {cos_1_value}, cos_2 = {cos_2_value}"
 
+# Switch for the 'Line Interpolation' option in individual view
+@app.callback(
+    Output('line_interpolation_individual', 'options'),
+    Output('line_interpolation_individual', 'style'),
+    Input('line_scatter_switch_individual', 'value'),
+)
+def color_button_toggle(line_scatter_switch_individual):
+    if line_scatter_switch_individual == 'scatter':
+        new_options = [{'label': 'Attribute interpolation', 'value': False, 'disabled': True}]
+        new_style = {'color': 'lightGray'}
+        return new_options, new_style
+    else:
+        new_options = [{'label': 'Attribute interpolation', 'value': True, 'disabled': False}]
+        new_style = {}
+        return new_options, new_style
+
 
 @app.callback(
     Output('color_switch', 'options'),
@@ -568,12 +597,13 @@ def color_button_toggle(complete_bubble_switch):
     Input('participant_selection', 'value'),
     Input('task_selection', 'value'),
     Input('toggle_timestamp', 'value'),
-    #
+    Input('line_scatter_switch_individual', 'value'),
+    Input('line_interpolation_individual', 'value'),
     # prevent_initial_call=True
 )
 def timeline_plot_control(view_switch, bubble_switch, year_switch, municipality_switch, gender_switch,
                           complete_bubble_switch, color_switch, participant_selection, task_selection,
-                          toggle_timestamp):
+                          toggle_timestamp, line_scatter_switch_individual, line_interpolation_individual):
     global df, df_vc, df_id_attr  # participant, participant_number,
 
     # print(task_selection)
@@ -671,18 +701,43 @@ def timeline_plot_control(view_switch, bubble_switch, year_switch, municipality_
         plot_trace = id_trace
 
     if year_switch:
-        year_trace = px.line(df_id_attr_filtered, x='start', y='year', color=color,
-                             color_discrete_map=color_mapping).data
+        if line_scatter_switch_individual == 'scatter':
+            year_trace = px.scatter(df_id_attr_filtered, x='start', y='year', color=color,
+                                    color_discrete_map=color_mapping).data
+        else:
+            if line_interpolation_individual:
+                year_trace = px.line(df_id_attr_filtered, x='start', y='year', color=color,
+                                     color_discrete_map=color_mapping, line_shape='hv').data
+            else:
+                year_trace = px.line(df_id_attr_filtered, x='start', y='year', color=color,
+                                     color_discrete_map=color_mapping).data
+
         plot_trace += year_trace
 
     if municipality_switch:
-        municipality_trace = px.line(df_id_attr_filtered, x='start', y='municipality', color=color,
-                                     color_discrete_map=color_mapping).data
+        if line_scatter_switch_individual == 'scatter':
+            municipality_trace = px.scatter(df_id_attr_filtered, x='start', y='municipality', color=color,
+                                            color_discrete_map=color_mapping).data
+        else:
+            if line_interpolation_individual:
+                municipality_trace = px.line(df_id_attr_filtered, x='start', y='municipality', color=color,
+                                             color_discrete_map=color_mapping, line_shape='hv').data
+            else:
+                municipality_trace = px.line(df_id_attr_filtered, x='start', y='municipality', color=color,
+                                             color_discrete_map=color_mapping).data
         plot_trace += municipality_trace
 
     if gender_switch:
-        gender_trace = px.line(df_id_attr_filtered, x='start', y='gender', color=color,
-                               color_discrete_map=color_mapping).data
+        if line_scatter_switch_individual == 'scatter':
+            gender_trace = px.scatter(df_id_attr_filtered, x='start', y='gender', color=color,
+                                      color_discrete_map=color_mapping).data
+        else:
+            if line_interpolation_individual:
+                gender_trace = px.line(df_id_attr_filtered, x='start', y='gender', color=color,
+                                       color_discrete_map=color_mapping, line_shape='hv').data
+            else:
+                gender_trace = px.line(df_id_attr_filtered, x='start', y='gender', color=color,
+                                       color_discrete_map=color_mapping).data
         plot_trace += gender_trace
 
     # print(df_vc)
